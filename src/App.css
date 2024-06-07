@@ -1,0 +1,181 @@
+.navbar {
+ 
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+.nav-link{
+  color: white;
+}
+li.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.hero-text{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width:400px;
+  z-index: 999;
+  top:50%;
+  transform: translate(-120%,-50%);
+}
+.button-black{
+  background-color: #222429;
+  text-decoration:none;
+  padding: 10px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-slider{
+  background-color: #222429;
+}
+.second-slider .swiper-button-prev,.second-slider .swiper-button-next {
+  color: #fff;
+
+}
+.second-slider .swiper-button-prev:after,.second-slider .swiper-button-next:after{
+ font-size:14px;
+  border:1px solid white;
+  border-radius:50%;
+  padding:8px 10px 8px 10px;
+  
+
+}
+span.italic {
+  font-style: italic;
+}
+.orange{
+  color:#f47920;
+}
+.orange-btn{
+  background: #f47920;
+  color:#222429!important;
+  text-decoration: none;
+  padding:10px;
+  border-radius: 4px;
+  width: 150px;
+  text-align: center;
+  transition: .5s ease all;
+}
+.orange-btn:hover{
+  background-color: #222429;
+  color: #fff!important;
+  transition: .5s ease all;
+}
+.welcome-sec{
+  background: url(./assets/frame.svg);
+  background-position:right center;
+  background-repeat: no-repeat;
+}
+.line{
+  background-color: #f47920;
+  height: 70px;
+  width: 3px;
+}
+.all-services-circle{
+  background-color:#222429 ;
+  color: #fff;
+  text-transform: uppercase;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+}
+.all-services-circle:hover{
+  background-color: #f47920;
+  color: #222429;
+}
+.featured-services-slider .swiper-slide{
+  text-align: left;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #E0E0E0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: start;
+
+}
+.featured-services-slider .swiper{
+  padding-bottom: 60px;
+}
+.featured-services-slider .swiper-pagination-bullet-active {
+  background: orange;
+}
+.name{
+  color: #f47920;
+  font-weight: 700;
+}
+.team-members{
+  background: url(./assets/Meet-the-Doctors.svg);
+  background-position:left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.orange-img{
+  background: url(./assets/Rectangle-27.webp);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+    width: 100%;
+}
+.accordion-button:not(.collapsed){
+  background: #f47920;
+  color: #222429;
+}
+.footer{
+  background: #222429;
+  color: #fff;
+}
+.img-footer{
+  background: url(./assets/CARE-CREDIT-1.jpg);
+  height: 50vh;
+}
+.cta{
+  background-color: #f47920;
+  width: 80%;
+  margin: 0px auto -30px auto;
+  border-radius: 10px;
+  padding:30px;
+}
+span.navbar-toggler-icon {
+  border: 1px solid white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width:991px){
+  h1 {
+    font-size: 22px;
+}
+.hero-text {
+
+  transform: translate(-100%, -50%);
+}
+
+}
+@media(max-width:850px){
+  .hero-text {
+    transform: translate(-104%, -15%);
+    width:308px;
+}
+}
+@media(max-width:680px){
+.hero-text {
+  transform: translate(-86%, -15%);
+  width: 286px;
+}}
